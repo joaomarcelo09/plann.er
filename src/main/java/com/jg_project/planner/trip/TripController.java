@@ -30,7 +30,7 @@ public class TripController {
         this.participantService.registerParticipantsTrip(payload.emails_to_invite(), newTrip.getId());
 
         return ResponseEntity.ok().body(new TripResponseDto(newTrip.getId()));
-    };
+    }
 
     @GetMapping("/{id}")
     public ResponseEntity<Trip> getTripDetails(@PathVariable UUID id) {
