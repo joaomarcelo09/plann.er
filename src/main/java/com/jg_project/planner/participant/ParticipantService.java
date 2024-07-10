@@ -9,5 +9,5 @@ import java.util.UUID;
 public class ParticipantService {
     public void registerParticipantsTrip(List<String> participantsToInvite, UUID id) {}
 
-    public void triggerConfirmationEmailToParticipants(UUID tripId) {}
+//    public void triggerConfirmationEmailToParticipants(UUID tripId) {}
 }
